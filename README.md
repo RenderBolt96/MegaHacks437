@@ -67,7 +67,7 @@
 ## Installing <img width="2.5%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/img/other/download.svg"/>
 
 ```
-apt update; apt upgrade; termux-setup-storage; apt install git; git clone https://github.com/mishakorzik/AllHackingTools; cd AllHackingTools; bash Install.sh
+apt update -y; apt upgrade -y; termux-setup-storage; apt install git -y; git clone https://github.com/mishakorzik/AllHackingTools; cd AllHackingTools; bash Install.sh
 ```
 
 **if the error and the command does not work: cd AllHackingTools && bash fix.sh**
